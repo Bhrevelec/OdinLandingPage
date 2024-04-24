@@ -83,3 +83,20 @@ button.hero-text {
   font-size: 18px;
   color: #1f2937;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 150px 100px 150px;
+  font-size: 36px;
+  font-weight: light-italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#author {
+  align-self: flex-end;
+  margin: 0;
+  margin-right: 30px;
+  font-weight: bold;
+}
