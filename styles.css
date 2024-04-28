@@ -65,7 +65,7 @@ button.hero-text {
 
 .content-container {
   display: flex;
-  justify-content: flex-between;
+  justify-content: center;
   gap: 40px;
   padding: 15px 150px 100px 150px;
   text-align: center;
@@ -139,4 +139,13 @@ button.hero-text {
   height: 40px;
   border-radius: 7px;
   font-weight: bold;
+}
+
+.footer {
+  height: 50px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
