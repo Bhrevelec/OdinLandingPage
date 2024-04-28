@@ -100,3 +100,43 @@ button.hero-text {
   margin-right: 30px;
   font-weight: bold;
 }
+
+.content-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 80px 150px;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.text-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtext {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+}
+
+.headtext {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button-banner {
+  color: white;
+  border: white solid 2px;
+  background-color: transparent;
+  height: 40px;
+  border-radius: 7px;
+  font-weight: bold;
+}
